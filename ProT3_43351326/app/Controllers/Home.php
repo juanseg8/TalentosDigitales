@@ -6,7 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'InnovaWeb Labs';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/principal');
         echo view('front/footer_view');
@@ -14,7 +15,8 @@ class Home extends BaseController
 
     public function quienes_somos()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'Quienes somos';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/quienes_somos');
         echo view('front/footer_view');
@@ -22,7 +24,8 @@ class Home extends BaseController
 
     public function acerca_de()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'Acerca de';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/acerca_de');
         echo view('front/footer_view');
@@ -30,17 +33,19 @@ class Home extends BaseController
 
     public function login()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'Inicio de sesion';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
-        echo view('front/login');
+        echo view('back/usuarios/login');
         echo view('front/footer_view');
     }
 
     public function registro()
     {
-        echo view('front/head_view');
+        $data['titulo'] = 'Registro';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
-        echo view('front/registro');
+        echo view('back/usuarios/registro');
         echo view('front/footer_view');
     }
 }

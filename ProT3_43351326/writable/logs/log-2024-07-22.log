@@ -1,0 +1,108 @@
+CRITICAL - 2024-07-22 19:10:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/registro.php"
+[Method: GET, Route: registro]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/registro.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/registro', [], true)
+ 3 APPPATH\Controllers\Home.php(48): view('front/registro')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registro()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 19:37:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/usuario/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(20): view('back/usuario/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 19:54:04 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: lista_usuarios]
+in APPPATH\Views\back\usuarios\index.php on line 19.
+ 1 APPPATH\Views\back\usuarios\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('back/usuarios/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->lista_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 19:56:22 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: lista_usuarios]
+in APPPATH\Views\back\usuarios\index.php on line 19.
+ 1 APPPATH\Views\back\usuarios\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('back/usuarios/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->lista_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 19:56:23 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: lista_usuarios]
+in APPPATH\Views\back\usuarios\index.php on line 19.
+ 1 APPPATH\Views\back\usuarios\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('back/usuarios/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->lista_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 19:56:44 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: lista_usuarios]
+in APPPATH\Views\back\usuarios\index.php on line 19.
+ 1 APPPATH\Views\back\usuarios\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('back/usuarios/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->lista_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 19:56:45 --> ErrorException: Undefined variable $usuarios
+[Method: GET, Route: lista_usuarios]
+in APPPATH\Views\back\usuarios\index.php on line 19.
+ 1 APPPATH\Views\back\usuarios\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/index', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('back/usuarios/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->lista_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 20:02:38 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios]
+in APPPATH\Views\back\usuarios\index.php on line 17.
+ 1 APPPATH\Views\back\usuarios\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/index', [], true)
+ 5 APPPATH\Controllers\usuarios_controller.php(24): view('back/usuarios/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuarios_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
