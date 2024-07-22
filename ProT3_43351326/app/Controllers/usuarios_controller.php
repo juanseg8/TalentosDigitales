@@ -20,7 +20,9 @@ class usuarios_controller extends Controller
 
         $data['titulo'] = 'Lista de Usuarios';
         echo view('front/head_view', $data);
+        echo view('front/navbar_view');
         echo view('back/usuarios/index', $data);
+        echo view('front/footer_view');
     }
 
     public function create()

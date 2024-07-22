@@ -27,6 +27,9 @@ $perfil = $session->get('perfil_id');
                         <a class="nav-link active" aria-current="page" href="registro">Registro</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="usuarios">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="<?php echo base_url('/logout'); ?>" tabindex="-1">Cerrar Sesión</a>
                     </li>
                 </ul>
