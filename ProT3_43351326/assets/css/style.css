@@ -1,24 +1,5 @@
-/* body {
-    background-color:#eaf2e3;
-    color: #333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    }
-   
-    
-.parrafo{
-    text-align: center;
-    font-weight: bold; 
-    font-style: italic;
-}
-
-.division{
-    background-color:burlywood;
-} */
-
 header {
-  background-color: #0093C4;
+  background-color: #0093c4;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -28,20 +9,59 @@ section {
   padding: 20px; /* espaciado para la sección de 20 pixeles */
 }
 
+/* Estilos del footer */
 footer {
-  background-color: #0093C4; /* Color de fondo del footer */
+  background-color: #0093c4; /* Color de fondo del footer */
   color: #fff;
   padding: 20px 0;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  align-items: center;
 }
 
 .footer-content {
-  max-width: 800px; /* Ancho máximo del contenido del footer */
   margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
-  text-align: center;
+  max-width: 1200px; /* Limitar el ancho máximo del footer */
+}
+
+nav ul.quick-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul.quick-links li {
+  display: inline;
+}
+
+nav ul.quick-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav ul.quick-links li a:hover {
+  background-color: #007bb5;
+}
+
+.logo {
+  height: auto;
+  width: 40px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1) translate(5px, -5px);
 }
 
 nav {
-  background-color: #0093C4;
+  background-color: #0093c4;
   padding: 10px;
 }
 
@@ -65,7 +85,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #0093C4;
+  background-color: #0093c4;
 }
 
 .logo {
@@ -87,16 +107,17 @@ nav ul li a:hover {
 }
 .about-section h2 {
   margin-bottom: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .about-section .card-title {
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
 }
-.about-section .card-text, .about-section ul {
-  color: #294B6E;
-  font-family: 'Open Sans', sans-serif;
+.about-section .card-text,
+.about-section ul {
+  color: #294b6e;
+  font-family: "Open Sans", sans-serif;
   text-align: justify;
   line-height: 1.5;
 }
@@ -108,26 +129,25 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 .about-section ul li strong {
-  color: #0093C4;
+  color: #0093c4;
 }
 .card {
   margin-bottom: 30px;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
-label{
+label {
   font-weight: bold;
 }
 
-input{
+input {
   box-shadow: inset;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-

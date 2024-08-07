@@ -1,0 +1,40 @@
+CRITICAL - 2024-08-07 20:58:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/usuario/editar.php"
+[Method: GET, Route: usuarios/editar/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/editar.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuario/editar', [], true)
+ 3 APPPATH\Controllers\usuarios_controller.php(90): view('back/usuario/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuarios_controller->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarios_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 20:59:02 --> ErrorException: Undefined array key "telefono"
+[Method: GET, Route: usuarios/editar/1]
+in APPPATH\Views\back\usuarios\editar.php on line 33.
+ 1 APPPATH\Views\back\usuarios\editar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefono"', 'C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\editar.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\back\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar', [], true)
+ 5 APPPATH\Controllers\usuarios_controller.php(90): view('back/usuarios/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuarios_controller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 21:56:09 --> ErrorException: Undefined variable $perfil
+[Method: GET, Route: login]
+in APPPATH\Views\front\footer_view.php on line 5.
+ 1 APPPATH\Views\front\footer_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $perfil', 'C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\front\\footer_view.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_43351326\\app\\Views\\front\\footer_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/footer_view', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('front/footer_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

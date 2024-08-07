@@ -7,15 +7,14 @@
 
     <title><?php echo ($titulo); ?></title>
 
+    <!-- Incluye tus archivos CSS locales -->
     <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet">
-
     <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
 
-    <link href="<?php echo base_url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); ?>" rel="stylesheet">
-
-    <link href="<?php echo base_url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); ?>" rel="stylesheet">
-
-    <link href="<?php echo base_url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'); ?>" rel="stylesheet">
+    <!-- Incluye las fuentes de Google directamente -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 
 </head>

@@ -25,5 +25,7 @@ $routes->get('/logout', 'login_controller::logout');
 
 // crud
 $routes->get('/usuarios', 'usuarios_controller::index');
-$routes->post('/usuarios/edit/(:num)', 'usuarios_controller::edit/$1');
 $routes->get('/usuarios/delete/(:num)', 'usuarios_controller::delete/$1');
+
+$routes->post('/usuarios/update', 'usuarios_controller::update');
+$routes->get('/usuarios/edit/(:num)', 'usuarios_controller::edit/$1');

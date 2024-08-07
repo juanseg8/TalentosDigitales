@@ -30,8 +30,9 @@
                             <td><?= esc($usuario['usuario']) ?></td>
                             <td><?= esc($usuario['email']) ?></td>
                             <td><?= esc($usuario['perfil_id']) ?></td>
-                            <td>
-                                <a href="<?= base_url('usuarios/delete/' . esc($usuario['id_usuario'])) ?>" class="btn btn-danger btn-sm" onclick="return confirm('¿Estás seguro de que quieres eliminar este usuario?');">Eliminar</a>
+                            <td class="d-flex justify-content-around">
+                                <a href="<?= base_url('usuarios/delete/' . esc($usuario['id_usuario'])) ?>" class="btn btn-danger btn-sm " onclick="return confirm('¿Estás seguro de que quieres eliminar este usuario?');">Eliminar</a>
+                                <a href="<?= base_url('usuarios/edit/' . esc($usuario['id_usuario'])) ?>" class="btn btn-warning btn-sm">Editar</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
